@@ -1,3 +1,4 @@
+<!-- documentation here: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.keeganwitt.CertificatePlugin</id>
     <name>Certificate Decoder</name>
