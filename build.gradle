@@ -3,10 +3,10 @@ plugins {
     id 'org.jetbrains.intellij' version '1.13.3'
     id 'application'
 }
-mainClassName = 'dev.johnwatts.plugins.certificates.CertificateVerifier'
+mainClassName = 'com.github.keeganwitt.plugins.certificates.CertificateVerifier'
 
-group 'dev.johnwatts.plugins'
-version '1.0.6'
+group 'com.github.keeganwitt.plugins'
+version '1.1.0'
 
 sourceCompatibility = 17
 

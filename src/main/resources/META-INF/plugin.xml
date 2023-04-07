@@ -1,7 +1,7 @@
 <idea-plugin>
-    <id>dev.johnwatts.CertificatePlugin</id>
+    <id>com.github.keeganwitt.CertificatePlugin</id>
     <name>Certificate Decoder</name>
-    <vendor email="cert.plugin@johnwatts.dev" url="https://www.johnwatts.dev">John Watts</vendor>
+    <vendor email="keeganwitt@gmail.com" url="https://github.com/keeganwitt">Keegan Witt</vendor>
 
     <description><![CDATA[<p>Decodes Base64 X509 Certificates and displays some of the information contained in the certificate.</p>
     <ul><li>First tries to decode any selected text; if that fails:</li>
@@ -18,11 +18,11 @@
         <group id="CertificateDecoder.Menu" text="Certificates" description="Certificates menu option">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
-            <action id="dev.johnwatts.plugins.certificates.actions.DecodeBase64X509CertificateAction" class="dev.johnwatts.plugins.certificates.actions.DecodeBase64X509CertificateAction" text="Decode Certificate" description="Decodes base64 X509 certificates"/>
+            <action id="com.github.keeganwitt.plugins.certificates.actions.DecodeBase64X509CertificateAction" class="com.github.keeganwitt.plugins.certificates.actions.DecodeBase64X509CertificateAction" text="Decode Certificate" description="Decodes base64 X509 certificates"/>
         </group>
         <group id="CertKeyVerifier.Menu" text="Certificates" description="Certificate / Key verification">
             <add-to-group group-id="ToolsMenu"/>
-            <action id="dev.johnwatts.plugins.certificates.actions.CertificateVerificationAction" class="dev.johnwatts.plugins.certificates.actions.CertificateVerificationAction" text="Verify Certificate/Private Key" description="Verifies that X509 cert and private key are a pair"/>
+            <action id="com.github.keeganwitt.plugins.certificates.actions.CertificateVerificationAction" class="com.github.keeganwitt.plugins.certificates.actions.CertificateVerificationAction" text="Verify Certificate/Private Key" description="Verifies that X509 cert and private key are a pair"/>
         </group>
     </actions>
 </idea-plugin>
